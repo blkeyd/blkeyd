@@ -1,23 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Arafat Hossain, AI and ML engineer working on computer vision, NLP and retrieval systems. A 3 by 3 kernel slides across a matrix of activation values and builds a feature map.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="MD Sayed Hasan, AI and Software Engineering student working on computer vision, deep learning and full-stack development. A 3 by 3 kernel slides across a matrix of activation values and builds a feature map.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#191724"/>
-      <stop offset="55%" stop-color="#1f1d2e"/>
-      <stop offset="100%" stop-color="#191724"/>
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0B0F19"/>
     </linearGradient>
     <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#eb6f92"/>
-      <stop offset="100%" stop-color="#f6c177"/>
+      <stop offset="0%" stop-color="#E59A3A"/>
+      <stop offset="100%" stop-color="#F7C77E"/>
     </linearGradient>
+    <linearGradient id="nameFill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F3F5F8"/>
+      <stop offset="100%" stop-color="#E59A3A"/>
+    </linearGradient>
+    <radialGradient id="glowspot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E59A3A" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#E59A3A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#E59A3A" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
     <style>
       .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
       .num  { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace;
                font-size: 11px; text-anchor: middle; }
-      .eyebrow { font-size: 12px; letter-spacing: 3.6px; fill: #908caa; }
+      .eyebrow { font-size: 12px; letter-spacing: 3.6px; fill: #E59A3A; opacity: .85; }
       .name { font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
-               font-size: 56px; fill: #e0def4; letter-spacing: -0.4px; }
-      .sub { font-size: 14px; letter-spacing: .3px; fill: #908caa; }
-      .cap { font-size: 10.5px; letter-spacing: 2.2px; fill: #908caa; opacity: .75; }
+               font-size: 54px; fill: url(#nameFill); letter-spacing: -0.4px; }
+      .sub { font-size: 13.5px; letter-spacing: .3px; fill: #9AA4B8; }
+      .cap { font-size: 10.5px; letter-spacing: 2.2px; fill: #6E7893; opacity: .9; }
 
       #kernel { animation: kernel 9.6s steps(1, end) infinite; }
       @keyframes kernel {
@@ -35,154 +53,157 @@
         91.6667% { transform: translate(120px, 68px); }
       }
 
-      .o { fill: #c4a7e7; opacity: .07;
+      .o { fill: #E59A3A; opacity: .06;
             animation-duration: 9.6s; animation-timing-function: steps(1, end);
             animation-iteration-count: infinite; }
-      .o0 { animation-name: fill0; }
-      .o1 { animation-name: fill1; }
-      .o2 { animation-name: fill2; }
-      .o3 { animation-name: fill3; }
-      .o4 { animation-name: fill4; }
-      .o5 { animation-name: fill5; }
-      .o6 { animation-name: fill6; }
-      .o7 { animation-name: fill7; }
-      .o8 { animation-name: fill8; }
-      .o9 { animation-name: fill9; }
-      .o10 { animation-name: fill10; }
-      .o11 { animation-name: fill11; }
-      @keyframes fill0 { 0%,0.0000% { opacity:.07 } 8.3333%,100% { opacity:.92 } }
-      @keyframes fill1 { 0%,8.3333% { opacity:.07 } 16.6667%,100% { opacity:.92 } }
-      @keyframes fill2 { 0%,16.6667% { opacity:.07 } 25.0000%,100% { opacity:.92 } }
-      @keyframes fill3 { 0%,25.0000% { opacity:.07 } 33.3333%,100% { opacity:.92 } }
-      @keyframes fill4 { 0%,33.3333% { opacity:.07 } 41.6667%,100% { opacity:.92 } }
-      @keyframes fill5 { 0%,41.6667% { opacity:.07 } 50.0000%,100% { opacity:.92 } }
-      @keyframes fill6 { 0%,50.0000% { opacity:.07 } 58.3333%,100% { opacity:.92 } }
-      @keyframes fill7 { 0%,58.3333% { opacity:.07 } 66.6667%,100% { opacity:.92 } }
-      @keyframes fill8 { 0%,66.6667% { opacity:.07 } 75.0000%,100% { opacity:.92 } }
-      @keyframes fill9 { 0%,75.0000% { opacity:.07 } 83.3333%,100% { opacity:.92 } }
-      @keyframes fill10 { 0%,83.3333% { opacity:.07 } 91.6667%,100% { opacity:.92 } }
-      @keyframes fill11 { 0%,91.6667% { opacity:.07 } 100.0000%,100% { opacity:.92 } }
+      .o0 { animation-name: fill0; } .o1 { animation-name: fill1; } .o2 { animation-name: fill2; }
+      .o3 { animation-name: fill3; } .o4 { animation-name: fill4; } .o5 { animation-name: fill5; }
+      .o6 { animation-name: fill6; } .o7 { animation-name: fill7; } .o8 { animation-name: fill8; }
+      .o9 { animation-name: fill9; } .o10 { animation-name: fill10; } .o11 { animation-name: fill11; }
+      @keyframes fill0 { 0%,0.0000% { opacity:.06 } 8.3333%,100% { opacity:.9 } }
+      @keyframes fill1 { 0%,8.3333% { opacity:.06 } 16.6667%,100% { opacity:.9 } }
+      @keyframes fill2 { 0%,16.6667% { opacity:.06 } 25.0000%,100% { opacity:.9 } }
+      @keyframes fill3 { 0%,25.0000% { opacity:.06 } 33.3333%,100% { opacity:.9 } }
+      @keyframes fill4 { 0%,33.3333% { opacity:.06 } 41.6667%,100% { opacity:.9 } }
+      @keyframes fill5 { 0%,41.6667% { opacity:.06 } 50.0000%,100% { opacity:.9 } }
+      @keyframes fill6 { 0%,50.0000% { opacity:.06 } 58.3333%,100% { opacity:.9 } }
+      @keyframes fill7 { 0%,58.3333% { opacity:.06 } 66.6667%,100% { opacity:.9 } }
+      @keyframes fill8 { 0%,66.6667% { opacity:.06 } 75.0000%,100% { opacity:.9 } }
+      @keyframes fill9 { 0%,75.0000% { opacity:.06 } 83.3333%,100% { opacity:.9 } }
+      @keyframes fill10 { 0%,83.3333% { opacity:.06 } 91.6667%,100% { opacity:.9 } }
+      @keyframes fill11 { 0%,91.6667% { opacity:.06 } 100.0000%,100% { opacity:.9 } }
+
+      #scan { animation: scan 6s linear infinite; }
+      @keyframes scan {
+        0% { transform: translateX(-60px); opacity: 0; }
+        8% { opacity: .5; }
+        50% { opacity: .5; }
+        92% { opacity: 0; }
+        100% { transform: translateX(1200px); opacity: 0; }
+      }
 
       @media (prefers-reduced-motion: reduce) {
-        #kernel { animation: none; }
-        .o { animation: none; opacity: .55; }
+        #kernel, #scan { animation: none; }
+        .o { animation: none; opacity: .5; }
       }
     </style>
   </defs>
 
-  <rect width="1200" height="300" rx="12" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="14" fill="url(#grid)"/>
+  <circle cx="150" cy="60" r="220" fill="url(#glowspot)"/>
+  <circle cx="1050" cy="250" r="260" fill="url(#glowspot)"/>
+
+  <!-- corner circuit accents -->
+  <path d="M 20 20 L 20 44 M 20 20 L 44 20" stroke="#E59A3A" stroke-width="1.4" opacity=".55" fill="none"/>
+  <path d="M 1180 280 L 1180 256 M 1180 280 L 1156 280" stroke="#E59A3A" stroke-width="1.4" opacity=".55" fill="none"/>
+  <circle cx="20" cy="20" r="2.2" fill="#E59A3A" opacity=".8"/>
+  <circle cx="1180" cy="280" r="2.2" fill="#E59A3A" opacity=".8"/>
+
+  <!-- scan line -->
+  <rect id="scan" x="0" y="0" width="2" height="300" fill="#E59A3A" opacity=".5"/>
 
   <!-- identity -->
-  <text class="mono eyebrow" x="66" y="106">AI &#47; ML ENGINEER &#183; DHAKA</text>
-  <text class="name" x="64" y="168">MD Sayed Hasan</text>
-  <rect x="66" y="190" width="62" height="3" rx="1.5" fill="url(#rule)"/>
-  <text class="mono sub" x="66" y="226">vision-language models &#183; retrieval systems &#183; bangla nlp</text>
+  <text class="mono eyebrow" x="64" y="104">AI &#38; SOFTWARE ENGINEERING STUDENT &#183; DHAKA</text>
+  <text class="name" x="62" y="166" filter="url(#softGlow)">MD Sayed Hasan</text>
+  <rect x="64" y="188" width="64" height="3" rx="1.5" fill="url(#rule)"/>
+  <text class="mono sub" x="64" y="224">computer vision &#183; deep learning &#183; full-stack dev &#183; bangla nlp</text>
+  <text class="mono cap" x="64" y="252">BUILDING AI-POWERED APPLICATIONS</text>
 
-  <line x1="600" y1="72" x2="600" y2="254" stroke="#26233a" stroke-width="1"/>
+  <line x1="600" y1="66" x2="600" y2="258" stroke="#22293B" stroke-width="1"/>
 
   <!-- input activation matrix -->
-    <rect x="670" y="80" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="688" y="98" fill="#9ccfd8" opacity=".95">.84</text>
-    <rect x="710" y="80" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="728" y="98" fill="#908caa" opacity=".62">.12</text>
-    <rect x="750" y="80" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="768" y="98" fill="#908caa" opacity=".62">.07</text>
-    <rect x="790" y="80" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="808" y="98" fill="#908caa" opacity=".62">.63</text>
-    <rect x="830" y="80" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="848" y="98" fill="#9ccfd8" opacity=".95">.91</text>
-    <rect x="870" y="80" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="888" y="98" fill="#908caa" opacity=".62">.28</text>
-    <rect x="670" y="114" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="688" y="132" fill="#908caa" opacity=".62">.05</text>
-    <rect x="710" y="114" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="728" y="132" fill="#908caa" opacity=".62">.77</text>
-    <rect x="750" y="114" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="768" y="132" fill="#908caa" opacity=".62">.41</text>
-    <rect x="790" y="114" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="808" y="132" fill="#908caa" opacity=".62">.18</text>
-    <rect x="830" y="114" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="848" y="132" fill="#908caa" opacity=".62">.52</text>
-    <rect x="870" y="114" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="888" y="132" fill="#9ccfd8" opacity=".95">.96</text>
-    <rect x="670" y="148" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="688" y="166" fill="#908caa" opacity=".62">.33</text>
-    <rect x="710" y="148" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="728" y="166" fill="#908caa" opacity=".62">.68</text>
-    <rect x="750" y="148" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="768" y="166" fill="#908caa" opacity=".62">.02</text>
-    <rect x="790" y="148" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="808" y="166" fill="#908caa" opacity=".62">.87</text>
-    <rect x="830" y="148" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="848" y="166" fill="#9ccfd8" opacity=".95">.24</text>
-    <rect x="870" y="148" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="888" y="166" fill="#908caa" opacity=".62">.59</text>
-    <rect x="670" y="182" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="688" y="200" fill="#908caa" opacity=".62">.71</text>
-    <rect x="710" y="182" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="728" y="200" fill="#908caa" opacity=".62">.09</text>
-    <rect x="750" y="182" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="768" y="200" fill="#9ccfd8" opacity=".95">.95</text>
-    <rect x="790" y="182" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="808" y="200" fill="#908caa" opacity=".62">.36</text>
-    <rect x="830" y="182" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="848" y="200" fill="#9ccfd8" opacity=".95">.80</text>
-    <rect x="870" y="182" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="888" y="200" fill="#908caa" opacity=".62">.15</text>
-    <rect x="670" y="216" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="688" y="234" fill="#908caa" opacity=".62">.47</text>
-    <rect x="710" y="216" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="728" y="234" fill="#908caa" opacity=".62">.23</text>
-    <rect x="750" y="216" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="768" y="234" fill="#9ccfd8" opacity=".95">.61</text>
-    <rect x="790" y="216" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="808" y="234" fill="#908caa" opacity=".62">.04</text>
-    <rect x="830" y="216" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="848" y="234" fill="#908caa" opacity=".62">.38</text>
-    <rect x="870" y="216" width="36" height="30" rx="2.5" fill="#26233a"/>
-    <text class="num" x="888" y="234" fill="#908caa" opacity=".62">.72</text>
+    <rect x="670" y="80" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="688" y="98" fill="#E59A3A" opacity=".9">.84</text>
+    <rect x="710" y="80" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="728" y="98" fill="#6E7893" opacity=".7">.12</text>
+    <rect x="750" y="80" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="768" y="98" fill="#6E7893" opacity=".7">.07</text>
+    <rect x="790" y="80" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="808" y="98" fill="#6E7893" opacity=".7">.63</text>
+    <rect x="830" y="80" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="848" y="98" fill="#E59A3A" opacity=".9">.91</text>
+    <rect x="870" y="80" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="888" y="98" fill="#6E7893" opacity=".7">.28</text>
+    <rect x="670" y="114" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="688" y="132" fill="#6E7893" opacity=".7">.05</text>
+    <rect x="710" y="114" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="728" y="132" fill="#6E7893" opacity=".7">.77</text>
+    <rect x="750" y="114" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="768" y="132" fill="#6E7893" opacity=".7">.41</text>
+    <rect x="790" y="114" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="808" y="132" fill="#6E7893" opacity=".7">.18</text>
+    <rect x="830" y="114" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="848" y="132" fill="#6E7893" opacity=".7">.52</text>
+    <rect x="870" y="114" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="888" y="132" fill="#E59A3A" opacity=".9">.96</text>
+    <rect x="670" y="148" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="688" y="166" fill="#6E7893" opacity=".7">.33</text>
+    <rect x="710" y="148" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="728" y="166" fill="#6E7893" opacity=".7">.68</text>
+    <rect x="750" y="148" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="768" y="166" fill="#6E7893" opacity=".7">.02</text>
+    <rect x="790" y="148" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="808" y="166" fill="#6E7893" opacity=".7">.87</text>
+    <rect x="830" y="148" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="848" y="166" fill="#E59A3A" opacity=".9">.24</text>
+    <rect x="870" y="148" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="888" y="166" fill="#6E7893" opacity=".7">.59</text>
+    <rect x="670" y="182" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="688" y="200" fill="#6E7893" opacity=".7">.71</text>
+    <rect x="710" y="182" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="728" y="200" fill="#6E7893" opacity=".7">.09</text>
+    <rect x="750" y="182" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="768" y="200" fill="#E59A3A" opacity=".9">.95</text>
+    <rect x="790" y="182" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="808" y="200" fill="#6E7893" opacity=".7">.36</text>
+    <rect x="830" y="182" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="848" y="200" fill="#E59A3A" opacity=".9">.80</text>
+    <rect x="870" y="182" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="888" y="200" fill="#6E7893" opacity=".7">.15</text>
+    <rect x="670" y="216" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="688" y="234" fill="#6E7893" opacity=".7">.47</text>
+    <rect x="710" y="216" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="728" y="234" fill="#6E7893" opacity=".7">.23</text>
+    <rect x="750" y="216" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="768" y="234" fill="#E59A3A" opacity=".9">.61</text>
+    <rect x="790" y="216" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="808" y="234" fill="#6E7893" opacity=".7">.04</text>
+    <rect x="830" y="216" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="848" y="234" fill="#6E7893" opacity=".7">.38</text>
+    <rect x="870" y="216" width="36" height="30" rx="2.5" fill="#171E2E"/>
+    <text class="num" x="888" y="234" fill="#6E7893" opacity=".7">.72</text>
 
   <!-- sliding kernel -->
-  <g id="kernel">
+  <g id="kernel" filter="url(#softGlow)">
     <rect x="666" y="76" width="124" height="106" rx="5"
-          fill="#f6c177" fill-opacity=".10" stroke="#f6c177" stroke-width="1.6"/>
-    <rect x="666" y="76" width="10" height="2" fill="#f6c177"/>
-    <rect x="780" y="180" width="10" height="2" fill="#f6c177"/>
+          fill="#E59A3A" fill-opacity=".10" stroke="#E59A3A" stroke-width="1.6"/>
+    <rect x="666" y="76" width="10" height="2" fill="#E59A3A"/>
+    <rect x="780" y="180" width="10" height="2" fill="#E59A3A"/>
   </g>
 
   <!-- arrow -->
   <line x1="920" y1="163" x2="944" y2="163"
-        stroke="#c4a7e7" stroke-width="1.4" opacity=".65"/>
+        stroke="#E59A3A" stroke-width="1.4" opacity=".7"/>
   <polyline points="937,158 944,163 937,168"
-        fill="none" stroke="#c4a7e7" stroke-width="1.4" opacity=".65"/>
+        fill="none" stroke="#E59A3A" stroke-width="1.4" opacity=".7"/>
 
   <!-- feature map -->
     <rect class="o o0" x="966" y="123" width="26" height="24" rx="2.5"/>
-
     <rect class="o o1" x="996" y="123" width="26" height="24" rx="2.5"/>
-
     <rect class="o o2" x="1026" y="123" width="26" height="24" rx="2.5"/>
-
     <rect class="o o3" x="1056" y="123" width="26" height="24" rx="2.5"/>
-
     <rect class="o o4" x="966" y="151" width="26" height="24" rx="2.5"/>
-
     <rect class="o o5" x="996" y="151" width="26" height="24" rx="2.5"/>
-
     <rect class="o o6" x="1026" y="151" width="26" height="24" rx="2.5"/>
-
     <rect class="o o7" x="1056" y="151" width="26" height="24" rx="2.5"/>
-
     <rect class="o o8" x="966" y="179" width="26" height="24" rx="2.5"/>
-
     <rect class="o o9" x="996" y="179" width="26" height="24" rx="2.5"/>
-
     <rect class="o o10" x="1026" y="179" width="26" height="24" rx="2.5"/>
-
     <rect class="o o11" x="1056" y="179" width="26" height="24" rx="2.5"/>
 
   <rect x="961" y="118" width="126" height="90" rx="4"
-        fill="none" stroke="#c4a7e7" stroke-width="1" opacity=".28"/>
+        fill="none" stroke="#E59A3A" stroke-width="1" opacity=".3"/>
 
   <text class="mono cap" x="670" y="272">CONV 3&#215;3 &#183; STRIDE 1 &#183; VALID &#8594; FEATURE MAP 4&#215;3</text>
 </svg>
