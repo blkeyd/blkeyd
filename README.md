@@ -66,7 +66,7 @@ Deep learning project exploring image-based fire detection using **Convolutional
 
 `Python` `TensorFlow` `Keras` `PyTorch` `OpenCV` `CNN` `GAN`
 
-**🔗 Repository:** Coming soon
+**🔗 Repository:** <img src="./assets/divider.svg" alt="" width="100%" height="24" />
 
 </td>
 <td width="50%" valign="top">
