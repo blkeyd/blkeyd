@@ -131,6 +131,10 @@ Research exploring **vision-language models for Bangla assistive technology** �
 ### 🌐 Full-Stack Web Application
 Currently developing a modern full-stack application using the **React ecosystem**.
 
+<p align="center">
+  <img src="./assets/webflow.svg" alt="Animated diagram of a client-server-database request/response cycle" width="100%" />
+</p>
+
 **Working with:** ⚛️ React · ▲ Next.js · 🟢 Node.js · 🎨 Tailwind CSS · 🔌 REST APIs · 🗄️ Backend & database integration
 
 `Node.js` `React` `Next.js` `Tailwind CSS` `JavaScript` `REST APIs`
