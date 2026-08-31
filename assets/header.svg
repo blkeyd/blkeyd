@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Arafat Hossain — AI/ML engineer working on vision-language models, retrieval systems and Bangla NLP">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#131A24"/>
+      <stop offset="100%" stop-color="#1B2533"/>
+    </linearGradient>
+    <style>
+      .p {
+        fill: #4FB3A5;
+        opacity: .10;
+        animation: sweep 5.5s ease-in-out infinite;
+      }
+      @keyframes sweep {
+        0%, 62%, 100% { opacity: .10; }
+        14%           { opacity: .82; }
+      }
+      .focus { animation: breathe 5.5s ease-in-out infinite; }
+      @keyframes breathe {
+        0%, 100% { stroke-opacity: .35; }
+        40%      { stroke-opacity: .95; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .p     { animation: none; opacity: .28; }
+        .focus { animation: none; stroke-opacity: .8; }
+      }
+      .eyebrow {
+        font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+        font-size: 13px; letter-spacing: 3.4px; fill: #8B98A8;
+      }
+      .name {
+        font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+        font-size: 58px; fill: #E8EAED; letter-spacing: -0.5px;
+      }
+      .sub {
+        font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+        font-size: 14.5px; letter-spacing: .4px; fill: #A9B5C4;
+      }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="260" rx="12" fill="url(#bg)"/>
+
+  <text class="eyebrow" x="72" y="76">AI / ML ENGINEER &#183; DHAKA, BANGLADESH</text>
+  <text class="name" x="70" y="140">MD Sayed Hasan</text>
+  <rect x="72" y="163" width="54" height="3" rx="1.5" fill="#E8A33D"/>
+  <text class="sub" x="72" y="200">vision-language models &#183; retrieval systems &#183; bangla nlp</text>
+
+    <rect class="p" x="792" y="64" width="22" height="22" rx="3" style="animation-delay:0.00s"/>
+    <rect class="p" x="820" y="64" width="22" height="22" rx="3" style="animation-delay:0.16s"/>
+    <rect class="p" x="848" y="64" width="22" height="22" rx="3" style="animation-delay:0.32s"/>
+    <rect class="p" x="876" y="64" width="22" height="22" rx="3" style="animation-delay:0.48s"/>
+    <rect class="p" x="904" y="64" width="22" height="22" rx="3" style="animation-delay:0.64s"/>
+    <rect class="p" x="932" y="64" width="22" height="22" rx="3" style="animation-delay:0.80s"/>
+    <rect class="p" x="960" y="64" width="22" height="22" rx="3" style="animation-delay:0.96s"/>
+    <rect class="p" x="988" y="64" width="22" height="22" rx="3" style="animation-delay:1.12s"/>
+    <rect class="p" x="792" y="92" width="22" height="22" rx="3" style="animation-delay:0.20s"/>
+    <rect class="p" x="820" y="92" width="22" height="22" rx="3" style="animation-delay:0.36s"/>
+    <rect class="p" x="848" y="92" width="22" height="22" rx="3" style="animation-delay:0.52s"/>
+    <rect class="p" x="876" y="92" width="22" height="22" rx="3" style="animation-delay:0.68s"/>
+    <rect class="p" x="904" y="92" width="22" height="22" rx="3" style="animation-delay:0.84s"/>
+    <rect class="p" x="932" y="92" width="22" height="22" rx="3" style="animation-delay:1.00s"/>
+    <rect class="p" x="960" y="92" width="22" height="22" rx="3" style="animation-delay:1.16s"/>
+    <rect class="p" x="988" y="92" width="22" height="22" rx="3" style="animation-delay:1.32s"/>
+    <rect class="p" x="792" y="120" width="22" height="22" rx="3" style="animation-delay:0.40s"/>
+    <rect class="p" x="820" y="120" width="22" height="22" rx="3" style="animation-delay:0.56s"/>
+    <rect class="p" x="848" y="120" width="22" height="22" rx="3" style="animation-delay:0.72s"/>
+    <rect class="p" x="876" y="120" width="22" height="22" rx="3" style="animation-delay:0.88s"/>
+    <rect class="p" x="904" y="120" width="22" height="22" rx="3" style="animation-delay:1.04s"/>
+    <rect class="p" x="932" y="120" width="22" height="22" rx="3" style="animation-delay:1.20s"/>
+    <rect class="p" x="960" y="120" width="22" height="22" rx="3" style="animation-delay:1.36s"/>
+    <rect class="p" x="988" y="120" width="22" height="22" rx="3" style="animation-delay:1.52s"/>
+    <rect class="p" x="792" y="148" width="22" height="22" rx="3" style="animation-delay:0.60s"/>
+    <rect class="p" x="820" y="148" width="22" height="22" rx="3" style="animation-delay:0.76s"/>
+    <rect class="p" x="848" y="148" width="22" height="22" rx="3" style="animation-delay:0.92s"/>
+    <rect class="p" x="876" y="148" width="22" height="22" rx="3" style="animation-delay:1.08s"/>
+    <rect class="p" x="904" y="148" width="22" height="22" rx="3" style="animation-delay:1.24s"/>
+    <rect class="p" x="932" y="148" width="22" height="22" rx="3" style="animation-delay:1.40s"/>
+    <rect class="p" x="960" y="148" width="22" height="22" rx="3" style="animation-delay:1.56s"/>
+    <rect class="p" x="988" y="148" width="22" height="22" rx="3" style="animation-delay:1.72s"/>
+    <rect class="p" x="792" y="176" width="22" height="22" rx="3" style="animation-delay:0.80s"/>
+    <rect class="p" x="820" y="176" width="22" height="22" rx="3" style="animation-delay:0.96s"/>
+    <rect class="p" x="848" y="176" width="22" height="22" rx="3" style="animation-delay:1.12s"/>
+    <rect class="p" x="876" y="176" width="22" height="22" rx="3" style="animation-delay:1.28s"/>
+    <rect class="p" x="904" y="176" width="22" height="22" rx="3" style="animation-delay:1.44s"/>
+    <rect class="p" x="932" y="176" width="22" height="22" rx="3" style="animation-delay:1.60s"/>
+    <rect class="p" x="960" y="176" width="22" height="22" rx="3" style="animation-delay:1.76s"/>
+    <rect class="p" x="988" y="176" width="22" height="22" rx="3" style="animation-delay:1.92s"/>
+  <rect class="focus" x="899" y="87" width="60" height="60" rx="5"
+        fill="none" stroke="#E8A33D" stroke-width="1.6"/>
+</svg>
