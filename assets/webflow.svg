@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260" role="img" aria-label="Animated diagram of a web request lifecycle: a browser sends a request to an API server, the server queries a database, and the response returns to render in the browser.">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0B0F19"/>
+    </linearGradient>
+    <radialGradient id="glowspot2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E59A3A" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#E59A3A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow2" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid2" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#E59A3A" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+    <style>
+      .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+      .cap { font-size: 10.5px; letter-spacing: 2.2px; fill: #6E7893; opacity: .9; }
+      .lbl { font-size: 11px; letter-spacing: 1.6px; fill: #E59A3A; opacity: .85; }
+      .sub { font-size: 10px; fill: #6E7893; }
+      .method { font-size: 10.5px; fill: #9AA4B8; }
+
+      /* request packet: browser -> server */
+      .reqPacket {
+        animation: reqMove 6s cubic-bezier(.4,0,.2,1) infinite;
+      }
+      @keyframes reqMove {
+        0%   { transform: translateX(0px);   opacity: 0; }
+        4%   { transform: translateX(0px);   opacity: 1; }
+        30%  { transform: translateX(536px); opacity: 1; }
+        33%  { transform: translateX(536px); opacity: 0; }
+        100% { transform: translateX(536px); opacity: 0; }
+      }
+
+      /* response packet: server -> browser, delayed */
+      .resPacket {
+        animation: resMove 6s cubic-bezier(.4,0,.2,1) infinite;
+      }
+      @keyframes resMove {
+        0%   { transform: translateX(0px);    opacity: 0; }
+        49%  { transform: translateX(0px);    opacity: 0; }
+        53%  { transform: translateX(0px);    opacity: 1; }
+        78%  { transform: translateX(-536px); opacity: 1; }
+        81%  { transform: translateX(-536px); opacity: 0; }
+        100% { transform: translateX(-536px); opacity: 0; }
+      }
+
+      /* API endpoint bars light up when the request arrives */
+      .ep { fill: #1B2436; transition: fill .2s; }
+      .ep1 { animation: epFlash 6s steps(1,end) infinite; }
+      .ep2 { animation: epFlash 6s steps(1,end) infinite; animation-delay: .15s; }
+      @keyframes epFlash {
+        0%, 29% { fill: #1B2436; }
+        30%, 46% { fill: #E59A3A; }
+        47%, 100% { fill: #1B2436; }
+      }
+
+      /* database pulse when queried */
+      .dbPulse {
+        animation: dbBeat 6s ease-in-out infinite;
+        transform-origin: 1052px 130px;
+      }
+      @keyframes dbBeat {
+        0%, 35%   { opacity: .35; transform: scale(1); }
+        40%       { opacity: 1;   transform: scale(1.08); }
+        46%, 100% { opacity: .35; transform: scale(1); }
+      }
+
+      /* browser content refreshes when the response renders */
+      .content { animation: contentFlash 6s steps(1,end) infinite; }
+      @keyframes contentFlash {
+        0%, 78%   { opacity: .35; }
+        80%, 94%  { opacity: 1; }
+        96%, 100% { opacity: .35; }
+      }
+
+      #scan2 { animation: scan2 6s linear infinite; }
+      @keyframes scan2 {
+        0%   { transform: translateX(-60px); opacity: 0; }
+        8%   { opacity: .4; }
+        50%  { opacity: .4; }
+        92%  { opacity: 0; }
+        100% { transform: translateX(1200px); opacity: 0; }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .reqPacket, .resPacket, #scan2 { animation: none; opacity: 0; }
+        .ep1, .ep2 { animation: none; fill: #1B2436; }
+        .dbPulse { animation: none; opacity: .6; }
+        .content { animation: none; opacity: .7; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" rx="14" fill="url(#bg2)"/>
+  <rect width="1200" height="260" rx="14" fill="url(#grid2)"/>
+  <circle cx="160" cy="60" r="200" fill="url(#glowspot2)"/>
+  <circle cx="1040" cy="220" r="220" fill="url(#glowspot2)"/>
+
+  <path d="M 20 20 L 20 44 M 20 20 L 44 20" stroke="#E59A3A" stroke-width="1.4" opacity=".5" fill="none"/>
+  <path d="M 1180 240 L 1180 216 M 1180 240 L 1156 240" stroke="#E59A3A" stroke-width="1.4" opacity=".5" fill="none"/>
+  <circle cx="20" cy="20" r="2" fill="#E59A3A" opacity=".8"/>
+  <circle cx="1180" cy="240" r="2" fill="#E59A3A" opacity=".8"/>
+
+  <rect id="scan2" x="0" y="0" width="2" height="260" fill="#E59A3A" opacity=".4"/>
+
+  <text class="mono lbl" x="60" y="34">CLIENT</text>
+  <text class="mono lbl" x="560" y="34">API SERVER</text>
+  <text class="mono lbl" x="1000" y="34">DATABASE</text>
+
+  <!-- ============ browser window ============ -->
+  <g>
+    <rect x="60" y="56" width="180" height="148" rx="8" fill="#171E2E" stroke="#22293B" stroke-width="1"/>
+    <rect x="60" y="56" width="180" height="24" rx="8" fill="#1B2436"/>
+    <rect x="60" y="72" width="180" height="8" fill="#1B2436"/>
+    <circle cx="74" cy="68" r="3" fill="#6E7893" opacity=".5"/>
+    <circle cx="86" cy="68" r="3" fill="#6E7893" opacity=".5"/>
+    <circle cx="98" cy="68" r="3" fill="#6E7893" opacity=".5"/>
+    <rect x="112" y="63" width="112" height="10" rx="5" fill="#0B0F19"/>
+    <text class="mono sub" x="118" y="71">yoursite.dev</text>
+
+    <g class="content">
+      <rect x="74" y="96" width="110" height="10" rx="2" fill="#E59A3A"/>
+      <rect x="74" y="114" width="152" height="6" rx="2" fill="#3A4256"/>
+      <rect x="74" y="126" width="140" height="6" rx="2" fill="#3A4256"/>
+      <rect x="74" y="138" width="152" height="6" rx="2" fill="#3A4256"/>
+      <rect x="74" y="156" width="70" height="20" rx="4" fill="#22293B" stroke="#E59A3A" stroke-width="1"/>
+      <rect x="152" y="156" width="70" height="20" rx="4" fill="#22293B"/>
+    </g>
+  </g>
+
+  <!-- ============ request/response path ============ -->
+  <line x1="248" y1="112" x2="784" y2="112" stroke="#22293B" stroke-width="1.4"/>
+  <line x1="248" y1="150" x2="784" y2="150" stroke="#22293B" stroke-width="1.4"/>
+  <text class="mono method" x="440" y="104" text-anchor="middle">GET /api/data</text>
+  <text class="mono method" x="440" y="168" text-anchor="middle">200 OK · json</text>
+
+  <g class="reqPacket" filter="url(#softGlow2)">
+    <circle cx="248" cy="112" r="5" fill="#E59A3A"/>
+  </g>
+  <g class="resPacket" filter="url(#softGlow2)">
+    <circle cx="784" cy="150" r="5" fill="#F7C77E"/>
+  </g>
+
+  <!-- ============ API server ============ -->
+  <g>
+    <rect x="792" y="56" width="150" height="148" rx="8" fill="#171E2E" stroke="#22293B" stroke-width="1"/>
+    <rect class="ep ep1" x="808" y="76" width="118" height="22" rx="4"/>
+    <text class="mono method" x="816" y="91" fill="#0B0F19" opacity=".01">GET</text>
+    <text class="mono" x="816" y="91" font-size="10" fill="#9AA4B8">GET&#160;&#160;/data</text>
+    <rect class="ep ep2" x="808" y="106" width="118" height="22" rx="4"/>
+    <text class="mono" x="816" y="121" font-size="10" fill="#9AA4B8">POST /submit</text>
+    <rect class="ep" x="808" y="136" width="118" height="22" rx="4"/>
+    <text class="mono" x="816" y="151" font-size="10" fill="#9AA4B8">AUTH /verify</text>
+    <text class="mono sub" x="808" y="188">node &#183; express</text>
+  </g>
+
+  <!-- ============ database ============ -->
+  <line x1="942" y1="130" x2="994" y2="130" stroke="#22293B" stroke-width="1.4"/>
+  <g class="dbPulse" filter="url(#softGlow2)">
+    <ellipse cx="1052" cy="104" rx="34" ry="10" fill="none" stroke="#E59A3A" stroke-width="1.6"/>
+    <path d="M 1018 104 L 1018 156 A 34 10 0 0 0 1086 156 L 1086 104" fill="none" stroke="#E59A3A" stroke-width="1.6"/>
+    <path d="M 1018 130 A 34 10 0 0 0 1086 130" fill="none" stroke="#E59A3A" stroke-width="1" opacity=".6"/>
+  </g>
+  <text class="mono sub" x="1022" y="188" text-anchor="start">postgres</text>
+
+  <text class="mono cap" x="60" y="238">HTTP REQUEST &#8594; ROUTE HANDLER &#8594; QUERY &#8594; JSON RESPONSE &#8594; RENDER</text>
+</svg>
