@@ -1,13 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="420" height="100" role="img" aria-label="Most used languages placeholder">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" width="420" height="260" role="img" aria-label="Most used languages for blkeyd">
   <defs>
     <style>
       .title { font-family: -apple-system, Segoe UI, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #E59A3A; }
-      .msg { font-family: -apple-system, Segoe UI, Helvetica, Arial, sans-serif; font-size: 13px; fill: #9AA4B8; }
+      .lang { font-family: -apple-system, Segoe UI, Helvetica, Arial, sans-serif; font-size: 12px; fill: #E8EBF0; }
+      .pct { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 11px; fill: #6E7893; }
     </style>
   </defs>
-  <rect x="0.5" y="0.5" width="419" height="99" rx="10" fill="#111827" stroke="#22293B"/>
+  <rect x="0.5" y="0.5" width="419" height="259" rx="10" fill="#111827" stroke="#22293B"/>
   <text x="16" y="30" class="title">Most Used Languages</text>
   <line x1="16" y1="40" x2="404" y2="40" stroke="#22293B" stroke-width="1"/>
-  <text x="16" y="66" class="msg">Run the "Update GitHub Stats" Action once</text>
-  <text x="16" y="84" class="msg">to generate this card from live data.</text>
+  
+        <text x="16" y="70" class="lang">Jupyter Notebook</text>
+        <rect x="120" y="58" width="280" height="12" rx="6" fill="#22293B"/>
+        <rect x="120" y="58" width="248.5" height="12" rx="6" fill="#E59A3A" opacity="1.00"/>
+        <text x="404" y="70" text-anchor="end" class="pct">88.7%</text>
+
+        <text x="16" y="104" class="lang">PHP</text>
+        <rect x="120" y="92" width="280" height="12" rx="6" fill="#22293B"/>
+        <rect x="120" y="92" width="17.1" height="12" rx="6" fill="#E59A3A" opacity="0.91"/>
+        <text x="404" y="104" text-anchor="end" class="pct">6.1%</text>
+
+        <text x="16" y="138" class="lang">CSS</text>
+        <rect x="120" y="126" width="280" height="12" rx="6" fill="#22293B"/>
+        <rect x="120" y="126" width="8.9" height="12" rx="6" fill="#E59A3A" opacity="0.82"/>
+        <text x="404" y="138" text-anchor="end" class="pct">3.2%</text>
+
+        <text x="16" y="172" class="lang">JavaScript</text>
+        <rect x="120" y="160" width="280" height="12" rx="6" fill="#22293B"/>
+        <rect x="120" y="160" width="4.0" height="12" rx="6" fill="#E59A3A" opacity="0.73"/>
+        <text x="404" y="172" text-anchor="end" class="pct">1.1%</text>
+
+        <text x="16" y="206" class="lang">Hack</text>
+        <rect x="120" y="194" width="280" height="12" rx="6" fill="#22293B"/>
+        <rect x="120" y="194" width="4.0" height="12" rx="6" fill="#E59A3A" opacity="0.63"/>
+        <text x="404" y="206" text-anchor="end" class="pct">0.6%</text>
+
+        <text x="16" y="240" class="lang">C</text>
+        <rect x="120" y="228" width="280" height="12" rx="6" fill="#22293B"/>
+        <rect x="120" y="228" width="4.0" height="12" rx="6" fill="#E59A3A" opacity="0.54"/>
+        <text x="404" y="240" text-anchor="end" class="pct">0.3%</text>
 </svg>
