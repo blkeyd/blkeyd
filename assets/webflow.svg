@@ -89,11 +89,19 @@
         100% { transform: translateX(1200px); opacity: 0; }
       }
 
+      .star { fill: #E59A3A; animation-name: twinkle2; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+      .star-w { fill: #E8EBF0; }
+      @keyframes twinkle2 {
+        0%, 100% { opacity: .08; }
+        50% { opacity: .85; }
+      }
+
       @media (prefers-reduced-motion: reduce) {
         .reqPacket, .resPacket, #scan2 { animation: none; opacity: 0; }
         .ep1, .ep2 { animation: none; fill: #1B2436; }
         .dbPulse { animation: none; opacity: .6; }
         .content { animation: none; opacity: .7; }
+        .star { animation: none; opacity: .3; }
       }
     </style>
   </defs>
@@ -102,6 +110,31 @@
   <rect width="1200" height="260" rx="14" fill="url(#grid2)"/>
   <circle cx="160" cy="60" r="200" fill="url(#glowspot2)"/>
   <circle cx="1040" cy="220" r="220" fill="url(#glowspot2)"/>
+
+  <g id="stars">
+    <circle class="star" cx="761.7" cy="21.7" r="0.98" style="animation-duration:3.22s;animation-delay:3.68s;"/>
+    <circle class="star" cx="1054.9" cy="35.8" r="1.12" style="animation-duration:2.68s;animation-delay:1.09s;"/>
+    <circle class="star" cx="50.8" cy="61.3" r="1.35" style="animation-duration:4.13s;animation-delay:1.1s;"/>
+    <circle class="star star-w" cx="958.9" cy="17.5" r="1.51" style="animation-duration:4.55s;animation-delay:1.7s;"/>
+    <circle class="star" cx="1130.4" cy="92.7" r="0.79" style="animation-duration:2.87s;animation-delay:4.24s;"/>
+    <circle class="star" cx="956.3" cy="182.4" r="1.24" style="animation-duration:5.32s;animation-delay:1.89s;"/>
+    <circle class="star star-w" cx="982.1" cy="157.0" r="1.56" style="animation-duration:4.22s;animation-delay:3.52s;"/>
+    <circle class="star star-w" cx="284.4" cy="82.0" r="0.78" style="animation-duration:3.25s;animation-delay:0.51s;"/>
+    <circle class="star" cx="757.4" cy="99.2" r="1.07" style="animation-duration:3.19s;animation-delay:1.33s;"/>
+    <circle class="star" cx="771.7" cy="154.9" r="0.87" style="animation-duration:4.64s;animation-delay:0.82s;"/>
+    <circle class="star" cx="1167.8" cy="161.9" r="1.26" style="animation-duration:4.52s;animation-delay:4.21s;"/>
+    <circle class="star" cx="285.7" cy="23.3" r="1.02" style="animation-duration:3.35s;animation-delay:1.05s;"/>
+    <circle class="star" cx="1036.6" cy="87.7" r="1.36" style="animation-duration:3.71s;animation-delay:4.57s;"/>
+    <circle class="star" cx="327.3" cy="72.2" r="1.26" style="animation-duration:3.34s;animation-delay:2.92s;"/>
+    <circle class="star star-w" cx="483.3" cy="66.0" r="1.7" style="animation-duration:4.03s;animation-delay:0.45s;"/>
+    <circle class="star" cx="147.2" cy="159.1" r="1.49" style="animation-duration:3.78s;animation-delay:0.32s;"/>
+    <circle class="star" cx="1175.5" cy="136.6" r="1.67" style="animation-duration:5.01s;animation-delay:0.06s;"/>
+    <circle class="star" cx="810.8" cy="138.4" r="0.97" style="animation-duration:4.39s;animation-delay:0.56s;"/>
+    <circle class="star star-w" cx="546.3" cy="233.5" r="1.58" style="animation-duration:3.34s;animation-delay:2.5s;"/>
+    <circle class="star star-w" cx="1078.6" cy="214.5" r="1.0" style="animation-duration:4.39s;animation-delay:3.04s;"/>
+    <circle class="star" cx="904.5" cy="139.0" r="1.48" style="animation-duration:4.08s;animation-delay:0.0s;"/>
+    <circle class="star star-w" cx="42.6" cy="227.8" r="1.58" style="animation-duration:4.93s;animation-delay:1.54s;"/>
+  </g>
 
   <path d="M 20 20 L 20 44 M 20 20 L 44 20" stroke="#E59A3A" stroke-width="1.4" opacity=".5" fill="none"/>
   <path d="M 1180 240 L 1180 216 M 1180 240 L 1156 240" stroke="#E59A3A" stroke-width="1.4" opacity=".5" fill="none"/>
