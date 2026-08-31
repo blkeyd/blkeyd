@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 244" width="488" height="244" role="img" aria-label="GitHub stats overview for blkeyd">
+  <defs>
+    <style>
+      .title { font-family: -apple-system, Segoe UI, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 700; fill: #E59A3A; }
+      .value { font-family: -apple-system, Segoe UI, Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #E8EBF0; }
+      .label { font-family: -apple-system, Segoe UI, Helvetica, Arial, sans-serif; font-size: 11px; fill: #6E7893; letter-spacing: .3px; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="487" height="243" rx="10" fill="#111827" stroke="#22293B"/>
+  <text x="16" y="30" class="title">GitHub Stats</text>
+  <line x1="16" y1="40" x2="472" y2="40" stroke="#22293B" stroke-width="1"/>
+  
+        <text x="92" y="82" text-anchor="middle" class="value">61</text>
+        <text x="92" y="102" text-anchor="middle" class="label">Total Contributions</text>
+
+        <text x="244" y="82" text-anchor="middle" class="value">1 day</text>
+        <text x="244" y="102" text-anchor="middle" class="label">Current Streak</text>
+
+        <text x="396" y="82" text-anchor="middle" class="value">2 days</text>
+        <text x="396" y="102" text-anchor="middle" class="label">Longest Streak</text>
+
+        <text x="92" y="174" text-anchor="middle" class="value">0</text>
+        <text x="92" y="194" text-anchor="middle" class="label">Total Stars</text>
+
+        <text x="244" y="174" text-anchor="middle" class="value">5</text>
+        <text x="244" y="194" text-anchor="middle" class="label">Public Repos</text>
+
+        <text x="396" y="174" text-anchor="middle" class="value">6</text>
+        <text x="396" y="194" text-anchor="middle" class="label">Followers</text>
+</svg>
