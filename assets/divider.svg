@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 60" width="1200" height="60" role="img" aria-label="starfield section divider">
+  <defs>
+    <linearGradient id="skyFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#111827" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#111827" stop-opacity=".55"/>
+      <stop offset="50%" stop-color="#111827" stop-opacity=".7"/>
+      <stop offset="85%" stop-color="#111827" stop-opacity=".55"/>
+      <stop offset="100%" stop-color="#111827" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lineFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E59A3A" stop-opacity="0"/>
+      <stop offset="12%" stop-color="#E59A3A" stop-opacity=".8"/>
+      <stop offset="50%" stop-color="#E59A3A" stop-opacity=".28"/>
+      <stop offset="88%" stop-color="#E59A3A" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#E59A3A" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .dstar { fill: #E59A3A; animation-name: dtwinkle; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+      .dstar-w { fill: #E8EBF0; }
+      @keyframes dtwinkle {
+        0%, 100% { opacity: .12; }
+        50% { opacity: .95; }
+      }
+      .node { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
+      .node2 { animation-delay: .8s; }
+      .node3 { animation-delay: 1.6s; }
+      @keyframes pulse {
+        0%, 100% { opacity: .35; r: 2.4; }
+        50% { opacity: 1; r: 4; }
+      }
+      .shoot { animation: shoot 7s linear infinite; opacity: 0; }
+      .shoot2 { animation-delay: 3.4s; }
+      @keyframes shoot {
+        0% { transform: translate(0,0); opacity: 0; }
+        2% { opacity: .9; }
+        10% { transform: translate(140px, 26px); opacity: 0; }
+        100% { transform: translate(140px, 26px); opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .dstar, .node, .shoot { animation: none; }
+        .dstar { opacity: .4; }
+        .node { opacity: .8; }
+      }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="60" fill="url(#skyFade)"/>
+
+  <g>
+    <circle class="dstar" cx="543.2" cy="33.1" r="1.52" style="animation-duration:3.74s;animation-delay:2.54s;"/>
+    <circle class="dstar" cx="224.1" cy="30.6" r="1.19" style="animation-duration:4.82s;animation-delay:0.47s;"/>
+    <circle class="dstar dstar-w" cx="112.1" cy="46.1" r="1.26" style="animation-duration:2.34s;animation-delay:4.91s;"/>
+    <circle class="dstar" cx="783.5" cy="36.0" r="0.67" style="animation-duration:2.25s;animation-delay:2.64s;"/>
+    <circle class="dstar dstar-w" cx="230.7" cy="16.6" r="0.53" style="animation-duration:3.73s;animation-delay:2.2s;"/>
+    <circle class="dstar" cx="622.8" cy="37.3" r="1.05" style="animation-duration:4.39s;animation-delay:2.29s;"/>
+    <circle class="dstar" cx="1193.2" cy="55.8" r="1.42" style="animation-duration:4.54s;animation-delay:1.58s;"/>
+    <circle class="dstar" cx="348.5" cy="7.7" r="1.34" style="animation-duration:3.52s;animation-delay:4.23s;"/>
+    <circle class="dstar" cx="1146.0" cy="48.1" r="0.5" style="animation-duration:2.89s;animation-delay:4.55s;"/>
+    <circle class="dstar" cx="1172.6" cy="24.7" r="0.58" style="animation-duration:4.28s;animation-delay:3.89s;"/>
+    <circle class="dstar" cx="107.9" cy="21.3" r="1.56" style="animation-duration:4.7s;animation-delay:0.59s;"/>
+    <circle class="dstar" cx="124.4" cy="7.1" r="1.38" style="animation-duration:2.79s;animation-delay:2.8s;"/>
+    <circle class="dstar" cx="231.3" cy="42.1" r="0.64" style="animation-duration:4.32s;animation-delay:0.58s;"/>
+    <circle class="dstar dstar-w" cx="257.7" cy="18.0" r="1.57" style="animation-duration:4.85s;animation-delay:1.52s;"/>
+    <circle class="dstar dstar-w" cx="255.2" cy="24.5" r="1.44" style="animation-duration:4.32s;animation-delay:0.5s;"/>
+    <circle class="dstar" cx="258.2" cy="17.4" r="1.35" style="animation-duration:3.29s;animation-delay:1.48s;"/>
+    <circle class="dstar" cx="111.4" cy="34.3" r="0.77" style="animation-duration:4.18s;animation-delay:1.86s;"/>
+    <circle class="dstar" cx="1147.3" cy="29.2" r="1.13" style="animation-duration:5.06s;animation-delay:0.91s;"/>
+    <circle class="dstar dstar-w" cx="1086.8" cy="46.5" r="0.77" style="animation-duration:2.83s;animation-delay:3.7s;"/>
+    <circle class="dstar" cx="238.3" cy="53.4" r="1.47" style="animation-duration:4.19s;animation-delay:2.11s;"/>
+    <circle class="dstar dstar-w" cx="50.1" cy="54.1" r="0.76" style="animation-duration:4.53s;animation-delay:1.28s;"/>
+    <circle class="dstar" cx="715.0" cy="19.3" r="0.69" style="animation-duration:4.58s;animation-delay:0.34s;"/>
+    <circle class="dstar" cx="670.8" cy="48.3" r="1.18" style="animation-duration:3.12s;animation-delay:4.59s;"/>
+    <circle class="dstar" cx="23.8" cy="18.0" r="0.99" style="animation-duration:2.4s;animation-delay:0.88s;"/>
+    <circle class="dstar" cx="686.0" cy="10.8" r="0.9" style="animation-duration:5.14s;animation-delay:4.9s;"/>
+    <circle class="dstar dstar-w" cx="827.9" cy="34.4" r="0.65" style="animation-duration:2.32s;animation-delay:0.09s;"/>
+    <circle class="dstar dstar-w" cx="839.6" cy="54.1" r="0.52" style="animation-duration:4.3s;animation-delay:2.41s;"/>
+    <circle class="dstar dstar-w" cx="384.1" cy="56.0" r="0.58" style="animation-duration:4.0s;animation-delay:3.69s;"/>
+    <circle class="dstar" cx="882.6" cy="40.6" r="1.37" style="animation-duration:5.22s;animation-delay:1.76s;"/>
+    <circle class="dstar" cx="1077.8" cy="49.3" r="0.96" style="animation-duration:4.81s;animation-delay:4.32s;"/>
+    <circle class="dstar" cx="749.0" cy="23.9" r="1.14" style="animation-duration:4.21s;animation-delay:0.4s;"/>
+    <circle class="dstar" cx="1188.0" cy="49.7" r="1.3" style="animation-duration:3.48s;animation-delay:3.68s;"/>
+    <circle class="dstar" cx="529.1" cy="47.6" r="0.59" style="animation-duration:4.68s;animation-delay:0.15s;"/>
+    <circle class="dstar dstar-w" cx="577.3" cy="16.0" r="1.27" style="animation-duration:3.84s;animation-delay:3.07s;"/>
+    <circle class="dstar" cx="308.9" cy="4.6" r="0.83" style="animation-duration:4.44s;animation-delay:1.01s;"/>
+    <circle class="dstar" cx="1083.6" cy="38.3" r="0.99" style="animation-duration:5.14s;animation-delay:1.63s;"/>
+    <circle class="dstar" cx="240.6" cy="26.4" r="1.39" style="animation-duration:5.22s;animation-delay:4.4s;"/>
+    <circle class="dstar dstar-w" cx="699.1" cy="20.5" r="0.65" style="animation-duration:3.84s;animation-delay:4.19s;"/>
+    <circle class="dstar" cx="851.8" cy="53.4" r="0.8" style="animation-duration:2.76s;animation-delay:2.25s;"/>
+    <circle class="dstar dstar-w" cx="259.2" cy="25.5" r="1.19" style="animation-duration:3.83s;animation-delay:1.58s;"/>
+    <circle class="dstar" cx="1174.6" cy="27.5" r="0.58" style="animation-duration:2.3s;animation-delay:4.36s;"/>
+    <circle class="dstar" cx="848.7" cy="33.7" r="0.84" style="animation-duration:4.81s;animation-delay:0.1s;"/>
+    <circle class="dstar" cx="546.2" cy="5.3" r="1.41" style="animation-duration:2.98s;animation-delay:0.7s;"/>
+    <circle class="dstar dstar-w" cx="754.0" cy="27.2" r="1.19" style="animation-duration:4.36s;animation-delay:4.04s;"/>
+    <circle class="dstar" cx="819.9" cy="14.4" r="1.02" style="animation-duration:2.79s;animation-delay:0.05s;"/>
+    <circle class="dstar" cx="855.3" cy="13.3" r="0.8" style="animation-duration:3.34s;animation-delay:3.49s;"/>
+  </g>
+
+  <line x1="0" y1="30" x2="1200" y2="30" stroke="url(#lineFade)" stroke-width="1"/>
+
+  <circle class="node" cx="150" cy="30" r="2.4" fill="#E59A3A"/>
+  <circle class="node node2" cx="600" cy="30" r="2.4" fill="#E59A3A"/>
+  <circle class="node node3" cx="1050" cy="30" r="2.4" fill="#E59A3A"/>
+
+  <g class="shoot">
+    <line x1="0" y1="0" x2="-18" y2="-6" stroke="#F7C77E" stroke-width="1.2" transform="translate(60,10)"/>
+  </g>
+  <g class="shoot shoot2">
+    <line x1="0" y1="0" x2="-18" y2="-6" stroke="#F7C77E" stroke-width="1.2" transform="translate(760,14)"/>
+  </g>
+</svg>
