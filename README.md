@@ -1,205 +1,259 @@
 <p align="center">
-
-  <img src="./assets/header-1.svg" alt="Sayed Hasan, AI & Software Engineer" width="100%" />
-
+  <img src="./assets/header-1.svg" alt="Sayed Hasan" width="100%" />
 </p>
 
 <p align="center">
-
-<a href="https://www.linkedin.com/in/mdsayed-hasan/"><img src="https://img.shields.io/badge/LinkedIn-1B2533?style=flat-square&logo=linkedin&logoColor=E8A33D" alt="LinkedIn" /></a> <a href="mailto:blkeydsayed@gmail.com"><img src="https://img.shields.io/badge/Email-1B2533?style=flat-square&logo=gmail&logoColor=E8A33D" alt="Email" /></a> <a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-1B2533?style=flat-square&logo=github&logoColor=E8A33D" alt="GitHub" /></a>
-
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=E8A33D&center=true&vCenter=true&width=700&lines=AI+%26+Software+Engineering+Student;Computer+Vision+%7C+Deep+Learning;Full-Stack+Developer;Building+AI-powered+applications" alt="Typing SVG" />
 </p>
 
-## About Me
+<p align="center">
+  <a href="https://www.linkedin.com/in/mdsayed-hasan/">
+    <img src="https://img.shields.io/badge/LinkedIn-1B2533?style=for-the-badge&logo=linkedin&logoColor=E8A33D" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:blkeydsayed@gmail.com">
+    <img src="https://img.shields.io/badge/Email-1B2533?style=for-the-badge&logo=gmail&logoColor=E8A33D" alt="Email"/>
+  </a>
+  <a href="https://github.com/blkeyd">
+    <img src="https://img.shields.io/badge/GitHub-1B2533?style=for-the-badge&logo=github&logoColor=E8A33D" alt="GitHub"/>
+  </a>
+</p>
 
-I'm a Computer Science and Engineering student interested in building practical software with **AI, machine learning, computer vision, and modern web technologies**.
-
-My work spans from developing full-stack applications to experimenting with deep learning models and computer vision systems. I'm particularly interested in how AI can be turned into useful, real-world products rather than staying purely theoretical.
-
-Currently exploring **AI/ML, computer vision, full-stack development, and research-oriented projects**.
-
----
-
-## Selected Work
-
-### 🔥 Fire Detection with CNN & GAN
-
-A deep learning project exploring fire detection using convolutional neural networks and generative adversarial networks.
-
-* Built and trained deep learning models for image-based fire classification
-* Explored GAN-based data generation and augmentation
-* Worked with image datasets and model evaluation
-* Focused on improving recognition of fire-related visual patterns
-
-**Stack:** `Python` · `TensorFlow` · `Keras` · `PyTorch` · `OpenCV` · `GAN` · `CNN`
-
-**Repo:** *Coming soon*
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=blkeyd&label=Profile%20Views&color=E8A33D&style=flat-square" alt="Profile views"/>
+</p>
 
 ---
 
-### 👤 Deep Learning Face Recognition & Attendance
+## 👋 About Me
 
-A real-time face recognition attendance system designed to work with ordinary computer hardware.
+I'm a **Computer Science & Engineering student** interested in building practical software at the intersection of **AI and software engineering**.
 
-* Implemented face detection and recognition using deep learning
-* Experimented with **AlexNet** and transfer-learning approaches
-* Built real-time webcam-based recognition
-* Automatically records attendance based on recognized faces
-* Designed to operate without requiring dedicated GPU hardware
+My experience ranges from **deep learning and computer vision** to **full-stack web development**, with a growing focus on turning AI research and ideas into usable applications.
 
-**Stack:** `Python` · `TensorFlow` · `Keras` · `OpenCV` · `CNN` · `Transfer Learning`
+I'm particularly interested in:
 
-**Repo:** *Coming soon*
+- 🤖 Artificial Intelligence & Machine Learning
+- 👁️ Computer Vision & Deep Learning
+- 🌐 Full-Stack Software Development
+- 🧠 Vision-Language Models & Multimodal AI
+- 🗣️ Bangla NLP
+- ♿ AI for Assistive Technology
+- 🔬 Applied AI Research
 
----
-
-### 🍕 PizzaGo
-
-A full-stack restaurant ordering platform developed using the MVC architecture.
-
-* Implemented customer, staff, and admin roles
-* Built authentication, cart, ordering, and inventory functionality
-* Designed a relational MySQL database
-* Used MVC to separate application logic and improve maintainability
-* Implemented server-side functionality with PHP and Apache
-
-**Stack:** `PHP` · `MySQL` · `JavaScript` · `HTML` · `CSS` · `Apache` · `MVC`
-
-**Repo:** *Coming soon*
+> **Currently:** Building, learning, experimenting, and working toward becoming an AI + Software Engineer.
 
 ---
 
-### 🧑‍⚖️ Bangla Vision-Language Model — Research
+# 🚀 Selected Projects
 
-Research-oriented work exploring **Bangla vision-language systems for assistive technology**.
+## 🔥 Fire Detection with CNN & GAN
 
-The goal is to investigate how multimodal AI can understand visual environments and communicate useful information in Bangla, particularly for accessibility and assistive applications.
+A deep learning project exploring image-based fire detection using **Convolutional Neural Networks and Generative Adversarial Networks**.
 
-* Exploring computer vision + natural language processing
-* Working with Bangla visual-language datasets
-* Investigating vision-language models and multimodal AI
-* Focus on practical assistive technology applications
+**Highlights**
 
-**Stack:** `Python` · `PyTorch` · `Computer Vision` · `Deep Learning` · `NLP` · `Vision-Language Models`
+- 🧠 CNN-based image classification
+- 🔥 Fire/non-fire image recognition
+- 🧬 GAN-based data generation and augmentation
+- 📊 Model training and evaluation
+- 🖼️ Image preprocessing and computer vision
+
+**Tech**
+
+`Python` `TensorFlow` `Keras` `PyTorch` `OpenCV` `CNN` `GAN`
+
+**🔗 Repository:** Coming soon
+
+---
+
+## 👤 DeepAttend — Face Recognition Attendance
+
+A real-time face recognition attendance system designed to run on **ordinary classroom hardware without requiring a dedicated GPU**.
+
+**Highlights**
+
+- 📷 Real-time webcam face detection
+- 🧠 Deep-learning based face recognition
+- 🔬 Experimented with AlexNet and transfer learning
+- 👥 Supports multiple enrolled users
+- 📝 Automatic attendance recording
+- ⚡ Designed for CPU-based operation
+
+**Tech**
+
+`Python` `TensorFlow` `Keras` `OpenCV` `AlexNet` `Transfer Learning`
+
+**🔗 Repository:** Coming soon
+
+---
+
+## 🍕 PizzaGo — Restaurant Management System
+
+A full-stack restaurant ordering and management platform built around the **MVC architecture**.
+
+**Highlights**
+
+- 👤 Customer, staff & admin roles
+- 🔐 Authentication and authorization
+- 🛒 Shopping cart and ordering
+- 📦 Inventory management
+- 📊 Order management
+- 🗄️ Relational MySQL database
+- 🏗️ MVC architecture
+
+**Tech**
+
+`PHP` `MySQL` `JavaScript` `HTML` `CSS` `Apache` `MVC`
+
+**🔗 Repository:** Coming soon
+
+---
+
+## 👁️ Bangla Vision-Language Model
+
+### Research / Thesis
+
+Research exploring **vision-language models for Bangla assistive technology**.
+
+The project focuses on how multimodal AI can understand visual information and communicate useful information in **Bangla**, with potential applications in accessibility and assistive systems.
+
+**Research areas**
+
+- 👁️ Computer Vision
+- 🧠 Vision-Language Models
+- 🗣️ Bangla NLP
+- 🤖 Multimodal AI
+- ♿ Assistive Technology
+- 🔬 Deep Learning
+
+**Tech**
+
+`Python` `PyTorch` `Computer Vision` `Deep Learning` `NLP` `VLM`
 
 **Status:** `Research / Thesis`
 
 ---
 
-### 🌐 Full-Stack Web Application
+## 🌐 Full-Stack Web Application
 
-Currently developing a modern full-stack application using the React ecosystem.
+Currently developing a modern full-stack application using the **React ecosystem**.
 
-* Building a frontend with **React and Next.js**
-* Styling with **Tailwind CSS**
-* Developing backend functionality with **Node.js**
-* Working with REST APIs and full-stack application architecture
-* Exploring modern deployment and production development practices
+**Working with**
 
-**Stack:** `Node.js` · `React` · `Next.js` · `Tailwind CSS` · `JavaScript` · `REST APIs`
+- ⚛️ React
+- ▲ Next.js
+- 🟢 Node.js
+- 🎨 Tailwind CSS
+- 🔌 REST APIs
+- 🗄️ Backend & database integration
+- 🚀 Modern web application architecture
 
-**Status:** `In Development`
+**Tech**
 
-**Repo:** *Coming soon*
+`Node.js` `React` `Next.js` `Tailwind CSS` `JavaScript` `REST APIs`
 
----
+**Status:** `🚧 In Development`
 
-## Tech Stack
-
-### Languages
-
-<p>
-  <img src="https://img.shields.io/badge/Python-1B2533?style=flat-square&logo=python&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/C++-1B2533?style=flat-square&logo=cplusplus&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/C%23-1B2533?style=flat-square&logo=csharp&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/Java-1B2533?style=flat-square&logo=openjdk&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/JavaScript-1B2533?style=flat-square&logo=javascript&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/PHP-1B2533?style=flat-square&logo=php&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/SQL-1B2533?style=flat-square&logo=mysql&logoColor=4FB3A5" />
-</p>
-
-### AI / Machine Learning
-
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-1B2533?style=flat-square&logo=pytorch&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/TensorFlow-1B2533?style=flat-square&logo=tensorflow&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/Keras-1B2533?style=flat-square&logo=keras&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/scikit--learn-1B2533?style=flat-square&logo=scikitlearn&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/OpenCV-1B2533?style=flat-square&logo=opencv&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/Hugging%20Face-1B2533?style=flat-square&logo=huggingface&logoColor=4FB3A5" />
-</p>
-
-### Web Development
-
-<p>
-  <img src="https://img.shields.io/badge/React-1B2533?style=flat-square&logo=react&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/Next.js-1B2533?style=flat-square&logo=nextdotjs&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/Node.js-1B2533?style=flat-square&logo=nodedotjs&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/Tailwind%20CSS-1B2533?style=flat-square&logo=tailwindcss&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/REST%20APIs-1B2533?style=flat-square&logo=fastapi&logoColor=4FB3A5" />
-</p>
-
-### Tools & Platforms
-
-<p>
-  <img src="https://img.shields.io/badge/Git-1B2533?style=flat-square&logo=git&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/GitHub-1B2533?style=flat-square&logo=github&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/Docker-1B2533?style=flat-square&logo=docker&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/Linux-1B2533?style=flat-square&logo=linux&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/Jupyter-1B2533?style=flat-square&logo=jupyter&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/Google%20Colab-1B2533?style=flat-square&logo=googlecolab&logoColor=4FB3A5" />
-  <img src="https://img.shields.io/badge/VS%20Code-1B2533?style=flat-square&logo=visualstudiocode&logoColor=4FB3A5" />
-</p>
-
-<details>
-
-<summary><b>More</b></summary>
-
-<br>
-
-| Area            | Technologies                                                  |
-| --------------- | ------------------------------------------------------------- |
-| **AI / ML**     | CNNs, GANs, Transfer Learning, Deep Learning, Computer Vision |
-| **Data**        | NumPy, Pandas, Matplotlib, Jupyter                            |
-| **NLP / AI**    | NLP, Hugging Face, Sentence Transformers                      |
-| **Backend**     | Node.js, PHP, REST APIs                                       |
-| **Frontend**    | React, Next.js, Tailwind CSS, HTML, CSS                       |
-| **Databases**   | MySQL, SQL Server                                             |
-| **Development** | MVC, AJAX, JSON, Git, GitHub                                  |
-| **Environment** | Linux, Docker, Google Colab                                   |
-
-</details>
+**🔗 Repository:** Coming soon
 
 ---
 
-## Education
+# 🧰 Tech Stack
 
-**B.Sc. in Computer Science & Engineering**
-American International University-Bangladesh (AIUB)
+### 💻 Languages
 
-Currently focused on software engineering, artificial intelligence, machine learning, and research.
+<p>
+  <img src="https://img.shields.io/badge/Python-1B2533?style=for-the-badge&logo=python&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/C++-1B2533?style=for-the-badge&logo=cplusplus&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/C%23-1B2533?style=for-the-badge&logo=csharp&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/Java-1B2533?style=for-the-badge&logo=openjdk&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/JavaScript-1B2533?style=for-the-badge&logo=javascript&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/PHP-1B2533?style=for-the-badge&logo=php&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/SQL-1B2533?style=for-the-badge&logo=mysql&logoColor=4FB3A5"/>
+</p>
+
+### 🤖 AI / Machine Learning
+
+<p>
+  <img src="https://img.shields.io/badge/PyTorch-1B2533?style=for-the-badge&logo=pytorch&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/TensorFlow-1B2533?style=for-the-badge&logo=tensorflow&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/Keras-1B2533?style=for-the-badge&logo=keras&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/scikit--learn-1B2533?style=for-the-badge&logo=scikitlearn&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/OpenCV-1B2533?style=for-the-badge&logo=opencv&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/HuggingFace-1B2533?style=for-the-badge&logo=huggingface&logoColor=4FB3A5"/>
+</p>
+
+### 🌐 Web Development
+
+<p>
+  <img src="https://img.shields.io/badge/React-1B2533?style=for-the-badge&logo=react&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/Next.js-1B2533?style=for-the-badge&logo=nextdotjs&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/Node.js-1B2533?style=for-the-badge&logo=nodedotjs&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-1B2533?style=for-the-badge&logo=tailwindcss&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/HTML5-1B2533?style=for-the-badge&logo=html5&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/CSS3-1B2533?style=for-the-badge&logo=css3&logoColor=4FB3A5"/>
+</p>
+
+### 🛠️ Tools & Platforms
+
+<p>
+  <img src="https://img.shields.io/badge/Git-1B2533?style=for-the-badge&logo=git&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/GitHub-1B2533?style=for-the-badge&logo=github&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/Docker-1B2533?style=for-the-badge&logo=docker&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/Linux-1B2533?style=for-the-badge&logo=linux&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/Jupyter-1B2533?style=for-the-badge&logo=jupyter&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/Google_Colab-1B2533?style=for-the-badge&logo=googlecolab&logoColor=4FB3A5"/>
+  <img src="https://img.shields.io/badge/VS_Code-1B2533?style=for-the-badge&logo=visualstudiocode&logoColor=4FB3A5"/>
+</p>
 
 ---
 
-## Research Interests
-
-* 🤖 Artificial Intelligence & Machine Learning
-* 👁️ Computer Vision
-* 🧠 Deep Learning
-* 🌐 Vision-Language Models
-* 🗣️ Bangla NLP & Multimodal AI
-* ♿ AI for Assistive Technology
-* 🔬 Applied AI Research
-
----
+# 📊 GitHub Activity
 
 <p align="center">
-
-<sub>Building software, exploring AI, and turning ideas into working systems.</sub>
-
-<br><br>
-
-<a href="mailto:blkeydsayed@gmail.com">Get in touch →</a>
-
+  <img src="https://github-readme-stats.vercel.app/api?username=blkeyd&show_icons=true&hide_border=true&bg_color=131A24&title_color=E8A33D&icon_color=4FB3A5&text_color=FFFFFF&rank_icon=github" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=blkeyd&layout=compact&hide_border=true&bg_color=131A24&title_color=E8A33D&text_color=FFFFFF" height="180"/>
 </p>
 
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=blkeyd&theme=dark&hide_border=true&background=131A24&ring=E8A33D&fire=E8A33D&currStreakLabel=E8A33D" />
+</p>
+
+---
+
+# 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=blkeyd&bg_color=131A24&color=FFFFFF&line=E8A33D&point=4FB3A5&area=true&hide_border=true" width="100%"/>
+</p>
+
+---
+
+# 🎓 Education
+
+**B.Sc. in Computer Science & Engineering**  
+American International University-Bangladesh — AIUB
+
+Currently focused on:
+
+`Software Engineering` · `Artificial Intelligence` · `Machine Learning` · `Computer Vision` · `Research`
+
+---
+
+# 🔬 Research Interests
+
+```text
+Artificial Intelligence
+       │
+       ├── Machine Learning
+       │      └── Deep Learning
+       │
+       ├── Computer Vision
+       │      ├── Image Classification
+       │      └── Vision-Language Models
+       │
+       ├── Natural Language Processing
+       │      └── Bangla NLP
+       │
+       └── Assistive Technology
+              └── Multimodal AI
