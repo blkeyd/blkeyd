@@ -10,10 +10,10 @@
   <text x="16" y="30" class="title">GitHub Stats</text>
   <line x1="16" y1="40" x2="472" y2="40" stroke="#22293B" stroke-width="1"/>
   
-        <text x="92" y="82" text-anchor="middle" class="value">61</text>
+        <text x="92" y="82" text-anchor="middle" class="value">73</text>
         <text x="92" y="102" text-anchor="middle" class="label">Total Contributions</text>
 
-        <text x="244" y="82" text-anchor="middle" class="value">1 day</text>
+        <text x="244" y="82" text-anchor="middle" class="value">2 days</text>
         <text x="244" y="102" text-anchor="middle" class="label">Current Streak</text>
 
         <text x="396" y="82" text-anchor="middle" class="value">2 days</text>
