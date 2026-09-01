@@ -91,7 +91,7 @@ Real-time face recognition attendance system designed to run on **ordinary class
 <tr>
 <td width="50%" valign="top">
 
-### 🍕 PizzaGo — Restaurant Management System
+### Online Restaurant Management System
 Full-stack restaurant ordering and management platform built around the **MVC architecture**.
 
 **Highlights**
