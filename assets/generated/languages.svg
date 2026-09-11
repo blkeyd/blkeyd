@@ -12,23 +12,23 @@
   
         <text x="16" y="70" class="lang">Jupyter Notebook</text>
         <rect x="120" y="58" width="280" height="12" rx="6" fill="#22293B"/>
-        <rect x="120" y="58" width="217.3" height="12" rx="6" fill="#E59A3A" opacity="1.00"/>
-        <text x="404" y="70" text-anchor="end" class="pct">77.6%</text>
+        <rect x="120" y="58" width="214.9" height="12" rx="6" fill="#E59A3A" opacity="1.00"/>
+        <text x="404" y="70" text-anchor="end" class="pct">76.8%</text>
 
         <text x="16" y="104" class="lang">Java</text>
         <rect x="120" y="92" width="280" height="12" rx="6" fill="#22293B"/>
-        <rect x="120" y="92" width="35.8" height="12" rx="6" fill="#E59A3A" opacity="0.91"/>
-        <text x="404" y="104" text-anchor="end" class="pct">12.8%</text>
+        <rect x="120" y="92" width="38.4" height="12" rx="6" fill="#E59A3A" opacity="0.91"/>
+        <text x="404" y="104" text-anchor="end" class="pct">13.7%</text>
 
         <text x="16" y="138" class="lang">PHP</text>
         <rect x="120" y="126" width="280" height="12" rx="6" fill="#22293B"/>
-        <rect x="120" y="126" width="15.0" height="12" rx="6" fill="#E59A3A" opacity="0.82"/>
+        <rect x="120" y="126" width="14.8" height="12" rx="6" fill="#E59A3A" opacity="0.82"/>
         <text x="404" y="138" text-anchor="end" class="pct">5.3%</text>
 
         <text x="16" y="172" class="lang">CSS</text>
         <rect x="120" y="160" width="280" height="12" rx="6" fill="#22293B"/>
-        <rect x="120" y="160" width="7.8" height="12" rx="6" fill="#E59A3A" opacity="0.73"/>
-        <text x="404" y="172" text-anchor="end" class="pct">2.8%</text>
+        <rect x="120" y="160" width="7.7" height="12" rx="6" fill="#E59A3A" opacity="0.73"/>
+        <text x="404" y="172" text-anchor="end" class="pct">2.7%</text>
 
         <text x="16" y="206" class="lang">JavaScript</text>
         <rect x="120" y="194" width="280" height="12" rx="6" fill="#22293B"/>
