@@ -66,25 +66,24 @@ Deep learning project exploring image-based fire detection using **Convolutional
 
 `Python` `TensorFlow` `Keras` `PyTorch` `OpenCV` `CNN` `GAN`
 
-**🔗 Repository:** Coming soon
+**🔗 Repository:** [AlexNet Fire Detection](https://github.com/blkeyd/CVPR/tree/main/Final/Paper)
 
 </td>
 <td width="50%" valign="top">
 
-### 👤 DeepAttend — Face Recognition Attendance
-Real-time face recognition attendance system designed to run on **ordinary classroom hardware without a dedicated GPU**.
+### 🚌 BusSheba — Bus Ticket Booking System
+A full-stack bus ticket booking system — from seat selection to payment — built with **Java Swing and PostgreSQL**.
 
 **Highlights**
-- 📷 Real-time webcam face detection
-- 🧠 Deep-learning based face recognition
-- 🔬 Experimented with AlexNet and transfer learning
-- 👥 Supports multiple enrolled users
-- 📝 Automatic attendance recording
-- ⚡ Designed for CPU-based operation
+- 🪑 Interactive seat map with race-condition-safe booking (no double-selling a seat)
+- 🔐 Secure auth with salted PBKDF2 password hashing
+- 🧱 Layered architecture: `model → dao → service → ui`
+- 🗃️ Row-level locking transactions for safe concurrent bookings
+- 📊 Admin dashboard for buses, routes, trips, users & revenue
 
-`Python` `TensorFlow` `Keras` `OpenCV` `AlexNet` `Transfer Learning`
+`Java` `Java Swing` `PostgreSQL` `JDBC` `Maven`
 
-**🔗 Repository:** Coming soon
+**🔗 Repository:** [BusSheba](https://github.com/blkeyd/BusSheba)
 
 </td>
 </tr>
@@ -104,7 +103,7 @@ Full-stack restaurant ordering and management platform built around the **MVC ar
 
 `PHP` `MySQL` `JavaScript` `HTML` `CSS` `Apache` `MVC`
 
-**🔗 Repository:** Coming soon
+**🔗 Repository:** [Online-Restaurant-Management-System-](https://github.com/blkeyd/Online-Restaurant-Management-System-)
 
 </td>
 <td width="50%" valign="top">
@@ -139,7 +138,7 @@ Currently developing a modern full-stack application using the **React ecosystem
 
 `Node.js` `React` `Next.js` `Tailwind CSS` `JavaScript` `REST APIs`
 
-**Status:** `🚧 In Development` &nbsp;·&nbsp; **🔗 Repository:** Coming soon
+**Status:** `🚧 In Development` &nbsp;·&nbsp; **🔗 Repository:** [hospital-management-system](https://github.com/blkeyd/hospital-management-system)
 
 <p align="center">
   <img src="./assets/divider.svg" alt="" width="100%" height="24" />
